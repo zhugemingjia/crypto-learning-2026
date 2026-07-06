@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# CIFAR-10 数据集（186MB，首次训练自动下载，不上传）
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+
+# 模型权重（如要保留就注释掉下面两行）
+# data/image_model.pth
+# data/image_model_best.pth
